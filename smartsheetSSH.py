@@ -21,6 +21,7 @@ hostname = socket.gethostname()
 
 # Get a whole column as it easier to do the search in pythnon than on the api 
 sheet = smartsheet.Sheets.get_sheet(sheetId)
+# XXX insert cacheing here
 for row in sheet.rows:
 	if row.cells[userColumn].value == sys.argv[1]:
 		if row.cells[hostColumn].value == hostname:

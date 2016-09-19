@@ -39,4 +39,5 @@ logger.critical('Mached %d with user "%s" testing for  host "%s"',len(cellList),
 for cell in cellList:
   if cell.col == userColumn:
 	if hostname == worksheet.cell(cell.row,hostColumn).value:
+                # XXX insert cacheing here 
   		print worksheet.cell(cell.row,sshKeyColumn).value

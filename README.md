@@ -1,7 +1,7 @@
 # What is this
 
 
- This is an example of using google spreadsheets to hold ssh authz keys for a group of users
+ This is an example of using google spreadsheetsi / smartsheet to hold ssh authz keys for a group of users.
 
 currently it is done in this order but this can be easily changed
 
