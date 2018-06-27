@@ -33,7 +33,7 @@ worksheet = gc.open(sheetName).sheet1
 
 cellList = worksheet.findall(sys.argv[1])
 
-logger.critical('Mached %d with user "%s" testing for  host "%s"',len(cellList),sys.argv[1],hostname)
+logger.critical('Matched %d with user "%s" testing for  host "%s"',len(cellList),sys.argv[1],hostname)
 
 
 for cell in cellList:
